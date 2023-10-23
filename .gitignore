@@ -4,3 +4,25 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude .terraform.lock.hcl file (Terraform 0.13+)
+.terraform.lock.hcl
+
+# Override exclusion for Terraform CLI configuration file
+!.terraformrc
+
+# Include exclusion for specific .tfvars files
+# Add patterns for any variable or secrets files
+# that you don't want to commit.
+!*.auto.tfvars
+!override.tf
+!override.tf.json
+
+# Exclude .idea directory (if you use JetBrains IDE)
+.idea/
+
+# Exclude .vscode directory (if you use Visual Studio Code)
+.vscode/
