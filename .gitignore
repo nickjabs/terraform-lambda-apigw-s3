@@ -14,9 +14,9 @@ crash.log
 # Override exclusion for Terraform CLI configuration file
 !.terraformrc
 
-# Include exclusion for specific .tfvars files
-# Add patterns for any variable or secrets files
-# that you don't want to commit.
+# Ignore dev_vars.auto.tfvars
+dev_vars.auto.tfvars
+
 !*.auto.tfvars
 !override.tf
 !override.tf.json
