@@ -1,2 +1,2 @@
-1. credentials + s3 bucket createdD
+1. credentials + s3 bucket created
    ![Alt text](Screenshot-s3-1.jpg)
