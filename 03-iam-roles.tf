@@ -54,7 +54,7 @@ resource "aws_iam_policy" "iam_policy_for_lambda2" {
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:::my-simple-bucket-7746412/*"
+            "Resource": "arn:aws:s3:::my-simple-bucket-774641/*"
         }
     ]
 }
@@ -72,4 +72,3 @@ resource "aws_iam_role_policy_attachment" "attach_iam_policy_to_iam_role2" {
   role       = aws_iam_role.lambda_role.name
   policy_arn = aws_iam_policy.iam_policy_for_lambda2.arn
 }
-
