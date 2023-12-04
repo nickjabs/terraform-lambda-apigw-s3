@@ -24,7 +24,11 @@
   </li>
   <li>Set up AWS credentials and configure the AWS CLI.</li>
   <li>Run Terraform commands:
-    <pre><code>terraform init<br>terraform plan<br>terraform apply</code></pre>
+    <pre><code>
+    <br>terraform init<br>
+    <br>terraform plan<br>
+    <br>terraform apply<br>
+    </code></pre>
   </li>
 </ol>
 
