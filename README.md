@@ -1,5 +1,3 @@
-  <title>Serverless Data Processing with AWS and Terraform</title>
-
 <h1>Serverless Data Processing with AWS and Terraform</h1>
 
 <p>This project automates the deployment of AWS Lambda functions, an API Gateway, and an S3 bucket to facilitate serverless data processing. It's designed for educational purposes as part of my Cloud Computing DevOps Engineer training. 🌐🛠️</p>
