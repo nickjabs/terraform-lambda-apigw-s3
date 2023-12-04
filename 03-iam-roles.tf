@@ -1,3 +1,4 @@
+#03-iam-roles.tf
 resource "aws_iam_role" "lambda_role" {
   name               = "terraform_aws_lambda_role"
   assume_role_policy = <<EOF

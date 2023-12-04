@@ -1,3 +1,4 @@
+#outputs
 output "api_endpoint" {
   description = "The HTTP API endpoint URL"
   value       = aws_apigatewayv2_api.post-api.api_endpoint
