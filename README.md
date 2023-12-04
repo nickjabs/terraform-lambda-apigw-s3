@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>Serverless Data Processing with AWS and Terraform</title>
